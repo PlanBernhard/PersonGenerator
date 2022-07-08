@@ -31,8 +31,8 @@ The method overload supports up to three arguments in the constructor:
   
   MockPerson mockPerson = new MockPerson(firstnameList, lastnameList);
   
-  Console.WriteLine($"New Person: {person.FirstName} {person.LastName} born {person.Birthday}");
+  Console.WriteLine($"New Person: {mockPerson.FirstName} {mockPerson.LastName} born {mockPerson.Birthday}");
 ```
 
 # Remarks
-If the method is used without a birthday argument the logic will take a date between `1.1.1970` and todays date.
+If the method is used without a birthday argument the logic will take a date between `1.1.1970` and `DateTime.Today`.
