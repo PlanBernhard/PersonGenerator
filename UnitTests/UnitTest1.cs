@@ -25,7 +25,7 @@ namespace UnitTests
             {
                 Assert.IsTrue(!string.IsNullOrEmpty(person.FirstName));
                 Assert.IsTrue(!string.IsNullOrEmpty(person.LastName));
-                Debug.WriteLine($"New Person: {person.FirstName} {person.LastName} born {person.Birthday}");
+                Debug.WriteLine($"New Person: {person.FirstName} {person.LastName} born {person.Birthday.ToString("dd.MM.yyyy")}");
             }
             Assert.AreNotEqual(mockPersonList.First(), mockPersonList.Last());
         }
