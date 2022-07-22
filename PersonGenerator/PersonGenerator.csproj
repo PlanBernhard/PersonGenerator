@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapters\CryptoServiceRandom.cs" />
     <Compile Include="Model\IMockPerson.cs" />
     <Compile Include="Model\MockPerson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

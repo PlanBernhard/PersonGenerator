@@ -17,7 +17,7 @@ namespace UnitTests
 
             for(int i = 0; i < 100; i++)
             {
-                MockPerson mockPerson = new MockPerson(seedData.Firstnames, seedData.Lastnames);
+                MockPerson mockPerson = new MockPerson(seedData.Firstnames, seedData.Lastnames, true);
                 mockPersonList.Add(mockPerson);
             }
 
